@@ -1,0 +1,23 @@
+body{
+    background: #0f0f0f;
+    color: #ffffff;
+}
+
+.iner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imag{
+    position: relative;
+    transition: transform 0.2s;
+}
+.imag:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+img{
+    width: 180px;
+    height: 200px;
+}
